@@ -2,7 +2,7 @@
 
 
 
-**1. Install the environment **
+**1. Install the environment**
 
 ```bash
 https://github.com/FuxiaoLiu/LRV-Instruction.git
