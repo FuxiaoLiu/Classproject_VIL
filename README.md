@@ -1,8 +1,14 @@
-# Classproject_VIL
+# Model
 
 
 
-**1. Install the environment according to [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl#Usage).**
+**1. Install the environment **
+
+```bash
+https://github.com/FuxiaoLiu/LRV-Instruction.git
+conda env create -f environment.yml --name LRV
+conda activate LRV
+```
 
 We finetuned mplug-owl on 8 V100. If you meet any questions when implement on V100, feel free to let me know!
 
@@ -47,4 +53,17 @@ First git clone the code from [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl), 
 
 ```
 python -m serve.inference --base-model 'your checkpoint directory' --bf16
+```
+
+
+# Datasets
+
+chart instruction data
+```
+gdown https://drive.google.com/uc?id=13j2U-ectsYGR92r6J5hPdhT8T5ezItHF
+```
+
+Chart insruction image
+```
+gdown https://drive.google.com/uc?id=1Dey-undzW2Nl21CYLFSkP_Y4RrfRJkYd
 ```
