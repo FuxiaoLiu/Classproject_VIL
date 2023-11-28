@@ -5,7 +5,6 @@
 **1. Install the environment**
 
 ```bash
-https://github.com/FuxiaoLiu/LRV-Instruction.git
 conda env create -f environment.yml --name LRV
 conda activate LRV
 ```
